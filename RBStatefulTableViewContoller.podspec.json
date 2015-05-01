@@ -1,0 +1,13 @@
+{
+  "name"          : "RBStatefulTableViewContoller",
+  "version"       : "0.0.1",
+  "summary"       : "An UITableViewController that handles state transitions by using a custom DataSource and Delegate for each state.",
+  "homepage"      : "https://github.com/eoghain/RBStatefulTableViewContoller",
+  "license"       : "MIT",
+  "author"        : { "eoghain" : "rob.o.booth@gmail.com" },
+  "platforms"     : { "ios" : "7.0" },
+  "source"        : { "git" : "https://github.com/eoghain/RBStatefulTableViewContoller.git", "tag" : "0.0.1" },
+  "source_files"  : [ "Classes", "Classes/*.{h,m}" ],
+  "exclude_files" : "Classes/Exclude",
+  "requires_arc"  : true
+}
