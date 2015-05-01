@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license       = { :type => 'MIT' }
   s.author        = { "eoghain" => "rob.o.booth@gmail.com" }
   s.platform      = :ios
-  s.source        = { :git => "https://github.com/eoghain/RBStatefulTableViewContoller.git", :commit => "c25945f495ce20af07ac9fe20d569ac66eb022d6" }
+  s.source        = { :git => "https://github.com/eoghain/RBStatefulTableViewContoller.git", :commit => "2c2a335115b9bfcac905917ec37909c63e72d353" }
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 end
