@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author        = { "eoghain" => "rob.o.booth@gmail.com" }
   s.platform      = :ios
   s.source        = { :git => "https://github.com/eoghain/RBStatefulTableViewContoller.git", :tag => s.version }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "Classes/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 end
