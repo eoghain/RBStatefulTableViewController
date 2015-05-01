@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		54FF24A81AF2DFDD00C4E67E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24A71AF2DFDD00C4E67E /* main.m */; };
 		54FF24AB1AF2DFDD00C4E67E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24AA1AF2DFDD00C4E67E /* AppDelegate.m */; };
-		54FF24AE1AF2DFDD00C4E67E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24AD1AF2DFDD00C4E67E /* ViewController.m */; };
 		54FF24B11AF2DFDD00C4E67E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54FF24AF1AF2DFDD00C4E67E /* Main.storyboard */; };
 		54FF24B31AF2DFDD00C4E67E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FF24B21AF2DFDD00C4E67E /* Images.xcassets */; };
 		54FF24B61AF2DFDD00C4E67E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FF24B41AF2DFDD00C4E67E /* LaunchScreen.xib */; };
 		54FF24C21AF2DFDD00C4E67E /* StatefulTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24C11AF2DFDD00C4E67E /* StatefulTableViewDemoTests.m */; };
+		54FF24CE1AF2E03C00C4E67E /* RBStatefulTableViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24CD1AF2E03C00C4E67E /* RBStatefulTableViewContoller.m */; };
+		54FF24D11AF2E07900C4E67E /* RBTableViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24D01AF2E07900C4E67E /* RBTableViewState.m */; };
+		54FF24D41AF2E2AD00C4E67E /* StateDemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24D31AF2E2AD00C4E67E /* StateDemoTableViewController.m */; };
+		54FF24D71AF2E43D00C4E67E /* EmptyState.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24D61AF2E43D00C4E67E /* EmptyState.m */; };
+		54FF24DA1AF2E6A100C4E67E /* LoadingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24D91AF2E6A100C4E67E /* LoadingState.m */; };
+		54FF24DD1AF2FA6A00C4E67E /* PopulatedState.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24DC1AF2FA6A00C4E67E /* PopulatedState.m */; };
+		54FF24E01AF2FF1000C4E67E /* ComicData.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24DF1AF2FF1000C4E67E /* ComicData.m */; };
+		54FF24E21AF2FF5E00C4E67E /* civilwarData.json in Resources */ = {isa = PBXBuildFile; fileRef = 54FF24E11AF2FF5E00C4E67E /* civilwarData.json */; };
+		54FF24E51AF3F93D00C4E67E /* ComicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24E41AF3F93D00C4E67E /* ComicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +40,29 @@
 		54FF24A71AF2DFDD00C4E67E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54FF24A91AF2DFDD00C4E67E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54FF24AA1AF2DFDD00C4E67E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		54FF24AC1AF2DFDD00C4E67E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		54FF24AD1AF2DFDD00C4E67E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		54FF24B01AF2DFDD00C4E67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54FF24B21AF2DFDD00C4E67E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		54FF24B51AF2DFDD00C4E67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		54FF24BB1AF2DFDD00C4E67E /* StatefulTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatefulTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FF24C01AF2DFDD00C4E67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54FF24C11AF2DFDD00C4E67E /* StatefulTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatefulTableViewDemoTests.m; sourceTree = "<group>"; };
+		54FF24CC1AF2E03C00C4E67E /* RBStatefulTableViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBStatefulTableViewContoller.h; sourceTree = "<group>"; };
+		54FF24CD1AF2E03C00C4E67E /* RBStatefulTableViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBStatefulTableViewContoller.m; sourceTree = "<group>"; };
+		54FF24CF1AF2E07900C4E67E /* RBTableViewState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBTableViewState.h; sourceTree = "<group>"; };
+		54FF24D01AF2E07900C4E67E /* RBTableViewState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBTableViewState.m; sourceTree = "<group>"; };
+		54FF24D21AF2E2AD00C4E67E /* StateDemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateDemoTableViewController.h; sourceTree = "<group>"; };
+		54FF24D31AF2E2AD00C4E67E /* StateDemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateDemoTableViewController.m; sourceTree = "<group>"; };
+		54FF24D51AF2E43D00C4E67E /* EmptyState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyState.h; sourceTree = "<group>"; };
+		54FF24D61AF2E43D00C4E67E /* EmptyState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyState.m; sourceTree = "<group>"; };
+		54FF24D81AF2E6A100C4E67E /* LoadingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingState.h; sourceTree = "<group>"; };
+		54FF24D91AF2E6A100C4E67E /* LoadingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingState.m; sourceTree = "<group>"; };
+		54FF24DB1AF2FA6A00C4E67E /* PopulatedState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopulatedState.h; sourceTree = "<group>"; };
+		54FF24DC1AF2FA6A00C4E67E /* PopulatedState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopulatedState.m; sourceTree = "<group>"; };
+		54FF24DE1AF2FF1000C4E67E /* ComicData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComicData.h; sourceTree = "<group>"; };
+		54FF24DF1AF2FF1000C4E67E /* ComicData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComicData.m; sourceTree = "<group>"; };
+		54FF24E11AF2FF5E00C4E67E /* civilwarData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = civilwarData.json; sourceTree = "<group>"; };
+		54FF24E31AF3F93D00C4E67E /* ComicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComicViewController.h; sourceTree = "<group>"; };
+		54FF24E41AF3F93D00C4E67E /* ComicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +86,7 @@
 		54FF24991AF2DFDD00C4E67E = {
 			isa = PBXGroup;
 			children = (
+				54FF24CB1AF2E00300C4E67E /* Classes */,
 				54FF24A41AF2DFDD00C4E67E /* StatefulTableViewDemo */,
 				54FF24BE1AF2DFDD00C4E67E /* StatefulTableViewDemoTests */,
 				54FF24A31AF2DFDD00C4E67E /* Products */,
@@ -83,8 +107,19 @@
 			children = (
 				54FF24A91AF2DFDD00C4E67E /* AppDelegate.h */,
 				54FF24AA1AF2DFDD00C4E67E /* AppDelegate.m */,
-				54FF24AC1AF2DFDD00C4E67E /* ViewController.h */,
-				54FF24AD1AF2DFDD00C4E67E /* ViewController.m */,
+				54FF24D21AF2E2AD00C4E67E /* StateDemoTableViewController.h */,
+				54FF24D31AF2E2AD00C4E67E /* StateDemoTableViewController.m */,
+				54FF24D51AF2E43D00C4E67E /* EmptyState.h */,
+				54FF24D61AF2E43D00C4E67E /* EmptyState.m */,
+				54FF24D81AF2E6A100C4E67E /* LoadingState.h */,
+				54FF24D91AF2E6A100C4E67E /* LoadingState.m */,
+				54FF24DB1AF2FA6A00C4E67E /* PopulatedState.h */,
+				54FF24DC1AF2FA6A00C4E67E /* PopulatedState.m */,
+				54FF24E31AF3F93D00C4E67E /* ComicViewController.h */,
+				54FF24E41AF3F93D00C4E67E /* ComicViewController.m */,
+				54FF24DE1AF2FF1000C4E67E /* ComicData.h */,
+				54FF24DF1AF2FF1000C4E67E /* ComicData.m */,
+				54FF24E11AF2FF5E00C4E67E /* civilwarData.json */,
 				54FF24AF1AF2DFDD00C4E67E /* Main.storyboard */,
 				54FF24B21AF2DFDD00C4E67E /* Images.xcassets */,
 				54FF24B41AF2DFDD00C4E67E /* LaunchScreen.xib */,
@@ -117,6 +152,17 @@
 				54FF24C01AF2DFDD00C4E67E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54FF24CB1AF2E00300C4E67E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				54FF24CC1AF2E03C00C4E67E /* RBStatefulTableViewContoller.h */,
+				54FF24CD1AF2E03C00C4E67E /* RBStatefulTableViewContoller.m */,
+				54FF24CF1AF2E07900C4E67E /* RBTableViewState.h */,
+				54FF24D01AF2E07900C4E67E /* RBTableViewState.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54FF24E21AF2FF5E00C4E67E /* civilwarData.json in Resources */,
 				54FF24B11AF2DFDD00C4E67E /* Main.storyboard in Resources */,
 				54FF24B61AF2DFDD00C4E67E /* LaunchScreen.xib in Resources */,
 				54FF24B31AF2DFDD00C4E67E /* Images.xcassets in Resources */,
@@ -219,9 +266,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54FF24AE1AF2DFDD00C4E67E /* ViewController.m in Sources */,
+				54FF24E51AF3F93D00C4E67E /* ComicViewController.m in Sources */,
+				54FF24D41AF2E2AD00C4E67E /* StateDemoTableViewController.m in Sources */,
+				54FF24CE1AF2E03C00C4E67E /* RBStatefulTableViewContoller.m in Sources */,
+				54FF24DD1AF2FA6A00C4E67E /* PopulatedState.m in Sources */,
+				54FF24D11AF2E07900C4E67E /* RBTableViewState.m in Sources */,
+				54FF24E01AF2FF1000C4E67E /* ComicData.m in Sources */,
 				54FF24AB1AF2DFDD00C4E67E /* AppDelegate.m in Sources */,
 				54FF24A81AF2DFDD00C4E67E /* main.m in Sources */,
+				54FF24D71AF2E43D00C4E67E /* EmptyState.m in Sources */,
+				54FF24DA1AF2E6A100C4E67E /* LoadingState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +472,7 @@
 				54FF24C71AF2DFDD00C4E67E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54FF24C81AF2DFDD00C4E67E /* Build configuration list for PBXNativeTarget "StatefulTableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +481,7 @@
 				54FF24CA1AF2DFDD00C4E67E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
