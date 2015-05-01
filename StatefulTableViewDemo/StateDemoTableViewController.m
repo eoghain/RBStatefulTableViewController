@@ -27,21 +27,4 @@ NSString * STATE_DEMO_POPULATED_STATE = @"populatedState";
     [self transitionToState:STATE_DEMO_LOADING_STATE withData:nil];
 }
 
-//- (void)viewWillAppear:(BOOL)animated
-//{
-//    [super viewWillAppear:animated];
-//    
-//    if (self.currentSate == nil)
-//    {
-//        [self transitionToState:STATE_DEMO_LOADING_STATE withData:nil];
-//    }
-//}
-
-# pragma mark - Animation Helper
-
-- (UITableViewRowAnimation)rowAnimation
-{
-    return UITableViewRowAnimationMiddle;
-}
-
 @end

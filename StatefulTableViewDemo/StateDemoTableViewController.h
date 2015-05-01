@@ -15,6 +15,4 @@ extern NSString * STATE_DEMO_POPULATED_STATE;
 
 @interface StateDemoTableViewController : RBStatefulTableViewController
 
-- (UITableViewRowAnimation)rowAnimation;
-
 @end
