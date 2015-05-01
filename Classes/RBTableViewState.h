@@ -6,11 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RBStatefulTableViewContoller.h"
+#import "RBStatefulTableViewController.h"
 
 @interface RBTableViewState : NSObject < RBStatefulTableViewStateProtocol, UITableViewDataSource, UITableViewDelegate >
 
-@property (strong, nonatomic) RBStatefulTableViewContoller * statefulTableViewController;
+@property (strong, nonatomic) RBStatefulTableViewController * statefulTableViewController;
 @property (readonly) UITableView * tableView;
 @property (nonatomic) UIRefreshControl * refreshControl;
 

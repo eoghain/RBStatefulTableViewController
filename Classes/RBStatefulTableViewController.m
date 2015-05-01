@@ -1,21 +1,21 @@
 //
-//  RBStatefulTableViewContoller.m
+//  RBStatefulTableViewController.m
 //
 //  Created by Rob Booth on 4/30/15.
 //  Copyright (c) 2015 Rob Booth. All rights reserved.
 //
 
-#import "RBStatefulTableViewContoller.h"
+#import "RBStatefulTableViewController.h"
 #import "RBTableViewState.h"
 
-@interface RBStatefulTableViewContoller ()
+@interface RBStatefulTableViewController ()
 
 @property (strong, nonatomic) NSMutableDictionary * states;
 @property (strong, nonatomic) RBTableViewState * currentState;
 
 @end
 
-@implementation RBStatefulTableViewContoller
+@implementation RBStatefulTableViewController
 
 - (void)viewDidLoad
 {

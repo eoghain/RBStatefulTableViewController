@@ -13,7 +13,7 @@
 		54FF24B31AF2DFDD00C4E67E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FF24B21AF2DFDD00C4E67E /* Images.xcassets */; };
 		54FF24B61AF2DFDD00C4E67E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54FF24B41AF2DFDD00C4E67E /* LaunchScreen.xib */; };
 		54FF24C21AF2DFDD00C4E67E /* StatefulTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24C11AF2DFDD00C4E67E /* StatefulTableViewDemoTests.m */; };
-		54FF24CE1AF2E03C00C4E67E /* RBStatefulTableViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24CD1AF2E03C00C4E67E /* RBStatefulTableViewContoller.m */; };
+		54FF24CE1AF2E03C00C4E67E /* RBStatefulTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24CD1AF2E03C00C4E67E /* RBStatefulTableViewController.m */; };
 		54FF24D11AF2E07900C4E67E /* RBTableViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24D01AF2E07900C4E67E /* RBTableViewState.m */; };
 		54FF24D41AF2E2AD00C4E67E /* StateDemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24D31AF2E2AD00C4E67E /* StateDemoTableViewController.m */; };
 		54FF24D71AF2E43D00C4E67E /* EmptyState.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF24D61AF2E43D00C4E67E /* EmptyState.m */; };
@@ -46,8 +46,8 @@
 		54FF24BB1AF2DFDD00C4E67E /* StatefulTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatefulTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FF24C01AF2DFDD00C4E67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54FF24C11AF2DFDD00C4E67E /* StatefulTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatefulTableViewDemoTests.m; sourceTree = "<group>"; };
-		54FF24CC1AF2E03C00C4E67E /* RBStatefulTableViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBStatefulTableViewContoller.h; sourceTree = "<group>"; };
-		54FF24CD1AF2E03C00C4E67E /* RBStatefulTableViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBStatefulTableViewContoller.m; sourceTree = "<group>"; };
+		54FF24CC1AF2E03C00C4E67E /* RBStatefulTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBStatefulTableViewController.h; sourceTree = "<group>"; };
+		54FF24CD1AF2E03C00C4E67E /* RBStatefulTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBStatefulTableViewController.m; sourceTree = "<group>"; };
 		54FF24CF1AF2E07900C4E67E /* RBTableViewState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBTableViewState.h; sourceTree = "<group>"; };
 		54FF24D01AF2E07900C4E67E /* RBTableViewState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBTableViewState.m; sourceTree = "<group>"; };
 		54FF24D21AF2E2AD00C4E67E /* StateDemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateDemoTableViewController.h; sourceTree = "<group>"; };
@@ -157,8 +157,8 @@
 		54FF24CB1AF2E00300C4E67E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				54FF24CC1AF2E03C00C4E67E /* RBStatefulTableViewContoller.h */,
-				54FF24CD1AF2E03C00C4E67E /* RBStatefulTableViewContoller.m */,
+				54FF24CC1AF2E03C00C4E67E /* RBStatefulTableViewController.h */,
+				54FF24CD1AF2E03C00C4E67E /* RBStatefulTableViewController.m */,
 				54FF24CF1AF2E07900C4E67E /* RBTableViewState.h */,
 				54FF24D01AF2E07900C4E67E /* RBTableViewState.m */,
 			);
@@ -268,7 +268,7 @@
 			files = (
 				54FF24E51AF3F93D00C4E67E /* ComicViewController.m in Sources */,
 				54FF24D41AF2E2AD00C4E67E /* StateDemoTableViewController.m in Sources */,
-				54FF24CE1AF2E03C00C4E67E /* RBStatefulTableViewContoller.m in Sources */,
+				54FF24CE1AF2E03C00C4E67E /* RBStatefulTableViewController.m in Sources */,
 				54FF24DD1AF2FA6A00C4E67E /* PopulatedState.m in Sources */,
 				54FF24D11AF2E07900C4E67E /* RBTableViewState.m in Sources */,
 				54FF24E01AF2FF1000C4E67E /* ComicData.m in Sources */,
