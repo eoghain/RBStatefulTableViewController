@@ -3,9 +3,11 @@
 ![license](https://img.shields.io/badge/license-MIT-blue.svg) ![cocoapods](https://img.shields.io/badge/pod-valid-brightgreen.svg) ![platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)
 
 
-I created this controller because I was tired of building table views only to finish my work and realize that I'd completely forgotten to take into account that my data needed to be loaded, or heaven forbid that my table view would be displayed without any data.  I also didn't want to have to completely throw away the work I'd done on the happy path.  Then it occurred to me that by changing the delegate and datasource class for my table views I could effectively change the state with very little work.  So I started building RBStatefulTableViewController.  The controller is very basic, it keeps a list of all states, and when a transition is requested it calls the `leaveState` on the current state object, then moves the datasource and delegate of the table view to the requested state, and finally `enterStateWithData:` on the state that was requested.  It does all of these calls within a `beginUpdates` / `endUpdates` block on the tableview so all animations happen seamlessly.
+I created this controller because I was tired of building table views only to finish my work and realize that I'd completely forgotten to take into account that my data needed to be loaded, or heaven forbid that my table view would be displayed without any data.  I also didn't want to have to completely throw away the work I'd done on the happy path.  Then it occurred to me that by changing the delegate and datasource class for my table views I could effectively change the state with very little work.  So I started building RBStatefulTableViewController.  
 
-This controller doesn't include any logic about what states can transition to others, that is all left in the hands of the implementor.  We just take care of the move and help you think about your setup in a different way.
+Basically, this controller just enforces a design pattern for dealing with TableViews that transition between multiple states.  It doesn't enforce any state transition logic, it just gives you an easy way to contain your state specific logic.
+
+The controller is very basic, it keeps a list of all states, and when a transition is requested it calls the `leaveState` on the current state object, then moves the datasource and delegate of the table view to the requested state, and finally `enterStateWithData:` on the state that was requested.  It does all of these calls within a `beginUpdates` / `endUpdates` block on the tableview so all animations happen seamlessly.
 
 ## Setup
 
